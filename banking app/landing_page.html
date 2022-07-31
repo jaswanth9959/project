@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------<title> Website Layout | CodingLab</title>------>
+    <link rel="stylesheet" href="landing_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
+<body>
+  
+  <div class="img"></div>
+  <div class="center">
+   
+    <div class="btns">
+      <button id="LOGIN">LOGIN</button>
+      <button id="SIGNUP"><a href="register.html" style="text-decoration: none ;">SIGNUP</a></button>
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+    const lOG = document.getElementById("LOGIN");
+    const sING = document.getElementById("SIGNUP");
+    lOG.addEventListener("click",()=>{
+        window.open("login.html",'_self')
+    })
+    // sIGN.addEventListener("click",()=>{
+    //     window.open("register.html",'_self')
+    // })
+</script>
+</html>
